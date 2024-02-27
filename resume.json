@@ -1,0 +1,234 @@
+{
+    "meta":{
+      "theme":"elegant"
+    },
+    "basics":{
+      "name":"Daniel Teycheney",
+      "label":"Automation Professional",
+      "image":"https://media.licdn.com/dms/image/C5603AQHVX8eMowp8HA/profile-displayphoto-shrink_200_200/0/1590966385402?e=1714608000&v=beta&t=oKCmycfO_KbHFZQ_EYAM-At9u-3kwDWumEIU5ZIbrFA",
+      "email":"danielfjteycheney@gmail.com",
+      "url":"https://blog.danielteycheney.com",
+      "summary":"I enjoy designing and building solutions, automating processes and working on team projects which make a real difference to a customers IT experience. Put simply, I like to leave all teams, organisations and environments in a better position than when I found them.",
+      "location":{
+        "postalCode":"3226",
+        "city":"Ocean Grove",
+        "countryCode":"AU",
+        "region":"Victoria"
+      },
+      "profiles":[
+        {
+          "network":"Github",
+          "username":"writememe",
+          "url":"https://github.com/writememe"
+        },
+        {
+          "network":"LinkedIn",
+          "username":"Daniel Teycheney",
+          "url":"https://www.linkedin.com/in/danielfjteycheney/"
+        },
+        {
+          "network":"Twitter",
+          "username":"danielteycheney",
+          "url":"https://twitter.com/danielteycheney"
+        }
+      ]
+    },
+    "work":[
+      {
+        "name":"Dragonfly Technologies",
+        "position":"Senior Automation Engineer",
+        "url":"https://www.dragonflytechnologies.com/",
+        "startDate":"2022-06-20",
+        "summary":"Working as part of the development team, supporting an internally developed microservices platform by performing a variety of tasks",
+        "highlights":[
+          "Rebuilt AWS environment using Pulumi and Python via Github Actions",
+          "Migration of approx 35 repositories from Bitbucket to Github",
+          "Created pipelines that automate build of microservice containers into AWS ECR and automate the release notes into Github",
+          "Created pipelines that deploy Kubernetes manifests into AWS EKS using Kustomize",
+          "Remediated and optimised automated Python test pipelines for each release, reducing pipeline runs from 45 minutes down to 3 minutes",
+          "Implemented and automated code quality standards across all Python-based repositories",
+          "Integrated automated Github actions pipeline notifications via Slack",
+          "Developed reusable automation solutions in Python, which are used across various customers"
+        ]
+      },
+      {
+        "name":"Transurban",
+        "position":"Network Automation Engineer",
+        "url":"https://www.transurban.com/",
+        "startDate":"2020-08-01",
+        "endDate":"2022-06-17",
+        "summary":"Defining, leading and implementing network automation solutions for the corporate and roadside network teams, using a Python-centric approach.",
+        "highlights":[
+          "Development of network automation roadmap to progress network automation efforts within the organisation",
+          "Lead developer for network automation architectural and design decisions",
+          "Establishment of Source of Truth solution to identify and mass remediate inventory data inside ServiceNow",
+          "Development of daily automated backup solution, including secret masking (approx 1050 devices )",
+          "Development of automated compliance solutions (approx 24,000 checks over 1400 devices)",
+          "Development of standards for code development, installation instructions to ensure code portability and ease of use across various platforms",
+          "Code refactor of all existing code projects to ensure that projects are consistent and follow best practices, such as adherence to style guides and readability",
+          "Mentoring of other staff on improving programming skills, including running internal sessions on topics such as FastAPI, nornir and code quality practices"
+        ]
+      },
+      {
+        "name":"Australian Super",
+        "position":"Cloud Engineer (Contract)",
+        "url":"https://www.transurban.com/",
+        "startDate":"2019-01-12",
+        "endDate":"2020-06-30",
+        "summary":"Assisting the cloud team in maturing the cloud offering, with a focus on networking automation within the multi-region cloud environment.",
+        "highlights":[
+          "Development of Ansible playbooks for Checkpoint firewall rule automation",
+          "Mentoring of other staff on improving network automation skills, including running internal sessions on topics such as Ansible",
+          "Deployment of internal Terraform module for Checkpoint high availability (HA) deployments in Azure",
+          "Remediating Azure DevOps pipelines to ensure that builds are consistently deployed across regions"
+        ]
+      },
+      {
+        "name":"Basis Networks",
+        "position":"Managing Consultant",
+        "url":"https://cybercx.com.au/about-cybercx/basis/",
+        "startDate":"2019-07-01",
+        "endDate":"2019-11-30",
+        "summary":"Implemented a network automation strategy for company wide code projects, with Python being the primary programming language",
+        "highlights":[
+          "Consolidation of disparate code locations into a central code repository (Bitbucket)",
+          "Code refactor of all existing code projects to ensure that projects are consistent and follow best practices, such as adherence to style guides and readability",
+          "Development of standards for code development, installation instructions to ensure code portability and ease of use across various platforms",
+          "Mentoring of other staff on improving programming skills, including running internal sessions on topics such as Ansible"
+        ]
+      },
+      {
+        "name":"Basis Networks",
+        "position":"Senior Consultant",
+        "url":"https://cybercx.com.au/about-cybercx/basis/",
+        "startDate":"2019-06-30",
+        "endDate":"2016-02-01",
+        "summary":"Lead a number of large scale network and security projects for large Australian enterprise businesses, using automation",
+        "highlights":[
+          "Designed and implemented a decoupling of management networks from the production network on behalf of Australia’s largest postal service, to mitigate a significant business risk of loss of management access during a critical network outage at either of their data centres.",
+          "Performed a second data centre relocation and consolidation for a subsidiary on behalf of Australia’s largest postal service, in order to retire legacy infrastructure and recoup significant data centre hosting savings for the business. ",
+          "Performed a firewall rule remediation for a large inbound information management service company, removing several thousand rules over  seven high availability firewall pairs.",
+          "Performed a data centre relocation and consolidation for a subsidiary on behalf of Australia’s largest postal service, in order to retire legacy infrastructure and recoup significant data centre savings for the business.",
+          "Developed a Python application to provide a configuration backup tool for Basis Networks’ managed service offering to diversify the company’s offerings."
+        ]
+      },
+      {
+        "name":"Telstra Corporation",
+        "position":"Technical Consultant",
+        "url":"https://www.telstra.com.au/",
+        "startDate":"2016-01-31",
+        "endDate":"2015-06-01",
+        "summary":"As part of a team of four consultants, designed and built two new data centre networks for a large gambling company.",
+        "highlights":[
+          "Designing and implementation for one of Australia’s first Cisco ACI implementations",
+          "Designing a multi VRF routing solution for new network",
+          "Develop change plans and cutovers to the new network"
+        ]
+      },
+      {
+        "name":"O2 Networks",
+        "position":"Technical Consultant",
+        "startDate":"2015-05-31",
+        "endDate":"2014-06-01",
+        "summary":"Lead a WAN migration for over eighty sites across Australia for a large health organisation from one WAN service provider to another.",
+        "highlights":[
+          "Liaised with various stakeholders involved in WAN migration activities",
+          "Designed and compiled network changes for implementation at all sites",
+          "Develop test cases and test plans to ensure successful WAN migrations",
+          "Developed standard change procedures and plans for migrations",
+          "Organising network resourcing and schedule for all migrations"
+        ]
+      }
+    ],
+    "volunteer":[
+    ],
+    "education":[
+    ],
+    "awards":[
+    ],
+    "certificates":[
+      {
+        "name":"Cisco Certified DevNet Associate",
+        "date":"2021-03-01",
+        "issuer":"Cisco Systems",
+        "url":"https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/devnet/cisco-certified-devnet-associate.html"
+      }
+    ],
+    "publications":[
+      {
+        "name":"The Art of Network Engineering Podcast",
+        "publisher":"The Art of Network Engineering",
+        "releaseDate":"2020-12-01",
+        "url":"https://artofnetworkengineering.com/2020/12/09/ep-21-he-automates-a-lan-down-unda/",
+        "summary":"Appeared on the podcast and spoke about network automation and my journey to becoming a network automation engineer"
+      },
+      {
+        "name":"Heavy Networking 554: Mistaking Commercial Software For A Security Blanket",
+        "publisher":"Packet Pushers",
+        "releaseDate":"2020-12-11",
+        "url":"https://packetpushers.net/podcasts/heavy-networking/hn554-mistaking-commercial-software-for-a-security-blanket/",
+        "summary":"Appeared on the podcast and spoke about open source versus commercial software and some of the key considerations"
+      },
+      {
+        "name":"The Hedge 73: Daniel Teycheney and Open Source in Networking",
+        "publisher":"The Hedge",
+        "releaseDate":"2021-03-05",
+        "url":"https://rule11.tech/the-hedge-73-daniel-teycheney-and-open-source-in-networking/",
+        "summary":"Appeared on the podcast and spoke about open source software as it relates to networking and network automation"
+      },
+      {
+        "name":"E127 - Daniel Teycheney at Dragonfly Technologies",
+        "publisher":"Hamilton Barnes",
+        "releaseDate":"2023-06-22",
+        "url":"https://www.hamilton-barnes.com/resources/podcast/e127---daniel-teycheney-at-dragonfly-technologies/",
+        "summary":"Appeared on the podcast and about my background, approach and mindset to one's career."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Network Automation",
+        "level":"Advanced",
+        "keywords":[
+          "Nornir",
+          "NAPALM",
+          "Scrapli",
+          "Netmiko",
+          "jmespath",
+          "Pandas",
+          "Jinja2",
+          "Ansible"
+        ]
+      }
+    ],
+    "languages":[
+      {
+        "language":"English",
+        "fluency":"Native speaker"
+      }
+    ],
+    "interests":[
+      {
+        "name":"Cycling",
+        "keywords":[
+          "Bikepacking",
+          "Outdoor Adventuring"
+        ]
+      }
+    ],
+    "references":[
+      {
+        
+      }
+    ],
+    "projects":[
+      {
+        "name":"motherstarter",
+        "startDate":"2020-11-09",
+        "description":"A network data transformation tool to accelerate the adoption of network automation by providing a command-line interface to convert input file sources to various network automation output formats.",
+        "highlights":[
+          "Maintainer of the project"
+        ],
+        "url":"https://github.com/writememe/motherstarter"
+      }
+    ]
+  }
