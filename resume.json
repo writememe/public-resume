@@ -39,6 +39,7 @@
         "position":"Senior Automation Engineer",
         "url":"https://www.dragonflytechnologies.com/",
         "startDate":"2022-06-20",
+        "description":"Dragonfly Technologies is a systems integrator which provides cyber security, network and automated managed services to customers in Australia.",
         "summary":"Working as part of the development team, supporting an internally developed microservices platform by performing a variety of tasks",
         "highlights":[
           "Rebuilt AWS environment using Pulumi and Python via Github Actions",
