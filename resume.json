@@ -58,6 +58,7 @@
         "url":"https://www.transurban.com/",
         "startDate":"2020-08-01",
         "endDate":"2022-06-17",
+        "description": "Transurban is a road operator company that manages and develops urban toll road networks in Australia, Canada and the United States.",
         "summary":"Defining, leading and implementing network automation solutions for the corporate and roadside network teams, using a Python-centric approach.",
         "highlights":[
           "Development of network automation roadmap to progress network automation efforts within the organisation",
@@ -76,6 +77,7 @@
         "url":"https://www.transurban.com/",
         "startDate":"2019-01-12",
         "endDate":"2020-06-30",
+        "description":"AustralianSuper is the largest Australian superannuation and pension fund, with roughly 1 in 10 Australian workers as members.",
         "summary":"Assisting the cloud team in maturing the cloud offering, with a focus on networking automation within the multi-region cloud environment.",
         "highlights":[
           "Development of Ansible playbooks for Checkpoint firewall rule automation",
@@ -90,6 +92,7 @@
         "url":"https://cybercx.com.au/about-cybercx/basis/",
         "startDate":"2019-07-01",
         "endDate":"2019-11-30",
+        "description": "Basis Networks is a leading provider of network and security solutions for some of Australia’s ASX 200 companies.",
         "summary":"Implemented a network automation strategy for company wide code projects, with Python being the primary programming language",
         "highlights":[
           "Consolidation of disparate code locations into a central code repository (Bitbucket)",
@@ -104,6 +107,7 @@
         "url":"https://cybercx.com.au/about-cybercx/basis/",
         "startDate":"2019-06-30",
         "endDate":"2016-02-01",
+        "description": "Basis Networks is a leading provider of network and security solutions for some of Australia’s ASX 200 companies.",
         "summary":"Lead a number of large scale network and security projects for large Australian enterprise businesses, using automation",
         "highlights":[
           "Designed and implemented a decoupling of management networks from the production network on behalf of Australia’s largest postal service, to mitigate a significant business risk of loss of management access during a critical network outage at either of their data centres.",
@@ -119,6 +123,7 @@
         "url":"https://www.telstra.com.au/",
         "startDate":"2016-01-31",
         "endDate":"2015-06-01",
+        "description": "Telstra Corporation is an Australian telecommunications company that builds and operates telecommunications networks and markets related products and services",
         "summary":"As part of a team of four consultants, designed and built two new data centre networks for a large gambling company.",
         "highlights":[
           "Designing and implementation for one of Australia’s first Cisco ACI implementations",
@@ -131,6 +136,7 @@
         "position":"Technical Consultant",
         "startDate":"2015-05-31",
         "endDate":"2014-06-01",
+        "description": "Transitioned over to Telstra as part of their acquisition of O2 Networks.",
         "summary":"Lead a WAN migration for over eighty sites across Australia for a large health organisation from one WAN service provider to another.",
         "highlights":[
           "Liaised with various stakeholders involved in WAN migration activities",
@@ -139,11 +145,99 @@
           "Developed standard change procedures and plans for migrations",
           "Organising network resourcing and schedule for all migrations"
         ]
+      },
+      {
+        "name":"Treasury Wine Estates",
+        "position":"Network Engineer",
+        "url":"https://www.tweglobal.com/",
+        "startDate":"2014-05-31",
+        "endDate":"2012-11-01",
+        "description": "Transitioned over to Telstra as part of their acquisition of O2 Networks.",
+        "summary":"Treasury Wine Estates (TWE) is one of the world’s largest wine companies, with a global winemaking and distribution business operating in multiple countries.",
+        "highlights":[
+          "Worked in a global network services team which is responsible for over ninety sites globally, primary lead for the Australia and Asia Pacific, approximately 60 sites",
+          "Involved in gathering network requirements, interpreting into network designs, implementations (onsite and remote) and support/BAU",
+          "Designing, configuring and implementing site integrations into TWE internal network",
+          "Developing standards for monitoring, routing and switching practices globally",
+          "Installing, configuring and management of Cisco routing, switching, wireless, WAN optimisation and firewalls",
+          "Operational changes and management of Nexus switching, F5 load balancing, McAfee Web Gateways"
+        ]
+      },
+      {
+        "name":"Travelling",
+        "position":"Traveller",
+        "startDate":"2012-10-31",
+        "endDate":"2012-06-01",
+        "summary":"Travelling through Europe on a career break.",
+        "highlights":[
+        ]
+      }, 
+      {
+        "name":"ISN Solutions Ltd",
+        "position":"Network Engineer",
+        "url":"https://www.isnsolutions.co.uk/",
+        "startDate":"2012-05-31",
+        "endDate":"2010-11-01",
+        "description": "ISN Solutions Ltd was a leader in  providing IT solutions, primarily to the Oil and Gas Industry.",
+        "summary": "Part of the network team performing network services for ISN Solutions' managed service customers.",
+        "highlights":[
+          "Installing, configuring and management of Cisco routers, switches, firewalls and wireless access points",
+          "Installing, configuring and management of Cisco Unified Call Manager Express (CME) and Cisco Unified Communications Small Business Systems (UC540 and UC 560 series)",
+          "Installing, configuring and management of Riverbed Steelhead WAN optimisers",
+          "Installing, configuring and management of Websense Web Security software",
+          "Co-ordinated and relocated customers from onsite services to hosting centre migrations",
+          "Configuration and management of Checkpoint UTM and open server firewalls",
+          "Coordinating and liaising with third party vendors such as Internet Service Providers to install, configure and troubleshoot components of customer networks.",
+          "Mentoring and training new network engineers as part of team expansion",
+          "Remote monitoring, reporting and management of networking suite using N-Central monitoring system",
+          "Configuring and implementing complete network solution for deployment on oil rig"
+        ]
       }
+      {
+        "name":"Deakin University",
+        "position":"Network Engineer",
+        "url":"https://www.deakin.edu.au",
+        "startDate":"2010-10-31",
+        "endDate":"2008-05-01",
+        "description": "Deakin University is one of Australia’s leading universities, with a focus on using IT to enhance the students’ experience.",
+        "summary": "Principal contact for all onsite Networking faults, service requests and queries at Deakin University, Waurn Ponds campus and ensuring their completion in line with Service Level Agreements",
+        "highlights":[
+          "Installing, configuring and load testing UPS Devices",
+          "Installing, troubleshooting and configuration of Tandberg Video Conferencing systems",
+          "Installing, configuring and replacing Cisco switches, wireless access points and routers for the University network as per customer requirements",
+          "Complete requests for configuration of Cisco IP Phones and IP Voice Points using Cisco Call Manager 4.3 and 7",
+          "Coordinate and organise Change Records and Outage Notifications to alert customers of IT Service disruptions in line with ITIL best-practice.",
+          "Coordinate with Systems Administrators to complete all networking requests for servers in the Universities data centre",
+          "Liaise with Facilities Management for design, fit-out and installation of network services into new and refurbished building projects",
+          "Coordinate contractors to complete data outlet cabling, system tails for switches and server hosts",
+          "Complete cabling requests for fax lines, auto-diallers and EFTPOS lines by cabling from MDF to end-customer locations",
+
+        ]
+      }
+
     ],
     "volunteer":[
     ],
     "education":[
+      {
+        "endDate": "2004-02-01",
+        "startDate": "2006-01-01",
+        "area": "Information Technology (Network Engineering)",
+        "studyType": "Diploma",
+        "institution": "Computer Power Institute of Technology"
+      },
+      {
+        "endDate": "2019-02-01",
+        "startDate": "2019-05-01",
+        "area": "Building Network Automation Solutions",
+        "studyType": "Online Course",
+        "institution": "IP Space",
+        "url": "https://my.ipspace.net/bin/list?id=NetAutSol",
+        "courses": [
+          "type": "Assignment",
+          "description": "As part of completing the course, my portfolio of coursework can be found on Github: https://github.com/writememe/BlgNetAutoSol"
+        ]
+      }
     ],
     "awards":[
     ],
@@ -197,7 +291,62 @@
           "jmespath",
           "Pandas",
           "Jinja2",
-          "Ansible"
+          "Ansible",
+          "Data modelling"
+        ]
+      },
+      {
+        "name": "Consulting",
+        "level": "Advanced",
+        "keywords":[
+          "Migration Strategies",
+          "Architecture and Roadmaps",
+          "High Level Designs / Detailed Designs",
+          "Network Assessments / Network Remediation",
+        ]
+      },
+      {
+        "name": "Programming",
+        "level": "Intermediate",
+        "keywords": [
+          "Python",
+          "Terraform",
+          "FastAPI",
+          "Pulumi",
+          "JSON",
+          "YAML"
+        ]
+      },
+      {
+        "name": "GitOps",
+        "level": "Intermediate",
+        "keywords": [
+          "Bitbucket",
+          "Bitbucket Pipelines",
+          "TravisCI",
+          "Azure DevOps",
+          "Github",
+          "Github Actions",
+          "Infrastructure as Code"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "level": "Intermediate",
+        "keywords": [
+          "AWS Networking (VPCs, Transit Gateways, NAT Gateways, Subnets, Route Tables, Security Groups)",
+          "AWS Containers (EKS, ECR)",
+          "AWS Compute (EC2, Lambda)",
+          "Azure Networking (Load Balancing, VNETs, Network Security Groups)"
+        ]
+      },
+      {
+        "name": "Networking",
+        "level": "Advanced",
+        "keywords": [
+          "Routing (BGP, OSPF, EIGRP, VRF Route Leaking)",
+          "Switching (vPC, VXLAN, FabricPath, STP),",
+          "Load Balancing", "WAN Optimisation", "Wireless", "Next-Generation Firewalls","Vulnerability Scanning", "Virtual Private Networks"
         ]
       }
     ],
@@ -217,9 +366,6 @@
       }
     ],
     "references":[
-      {
-        
-      }
     ],
     "projects":[
       {
