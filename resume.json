@@ -232,13 +232,7 @@
       "area":"Building Network Automation Solutions",
       "studyType":"Online Course",
       "institution":"IP Space",
-      "url":"https://my.ipspace.net/bin/list?id=NetAutSol",
-      "courses":[
-        {
-          "type":"Assignment",
-          "description":"As part of completing the course, my portfolio of coursework can be found on Github: https://github.com/writememe/BlgNetAutoSol"
-        }
-      ]
+      "url":"https://my.ipspace.net/bin/list?id=NetAutSol"
     }
   ],
   "awards":[
@@ -385,6 +379,13 @@
         "Maintainer of the project"
       ],
       "url":"https://github.com/writememe/motherstarter"
+    },
+    {
+      "name": "Building Network Automation Solutions - Course Assignments",
+      "startDate": "2019-02-01",
+      "endDate": "2019-05-01",
+      "description": "As part of completing the course, my portfolio of coursework can be found on Github",
+      "url": "https://github.com/writememe/BlgNetAutoSol"
     }
   ]
 }
