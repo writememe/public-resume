@@ -241,9 +241,27 @@
   "certificates":[
     {
       "name":"Cisco Certified DevNet Associate",
-      "date":"2021-03-01",
+      "date":"2021-03-31",
       "issuer":"Cisco Systems",
-      "url":"https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/devnet/cisco-certified-devnet-associate.html"
+      "url":"https://www.credly.com/badges/0a73a568-0b41-4683-8048-45d2bd7f0e9b"
+    },
+    {
+      "name":"AWS Certified Solutions Architect - Associate",
+      "date":"2019-11-28",
+      "issuer":"Amazon Web Services",
+      "url":"https://www.credly.com/badges/5da1818a-0512-4bd0-a80e-400c055be984"
+    },
+    {
+      "name":"Cisco Certified Network Professional Enterprise (CCNP Enterprise)",
+      "date":"2014-05-24",
+      "issuer":"Cisco Systems",
+      "url":"https://www.credly.com/badges/8d657700-161a-4051-bc39-b5993f103ead"
+    },
+    {
+      "name":"Cisco Certified Design Professional (CCDP)",
+      "date":"2015-05-22",
+      "issuer":"Cisco Systems",
+      "url":"https://www.credly.com/badges/56deb085-62fb-4082-bd12-047641226f7b"
     }
   ],
   "publications":[
@@ -328,21 +346,43 @@
       ]
     },
     {
-      "name":"Cloud",
+      "name":"Amazon Web Services (AWS)",
       "level":"Intermediate",
       "keywords":[
-        "AWS Networking (VPCs, Transit Gateways, NAT Gateways, Subnets, Route Tables, Security Groups)",
-        "AWS Containers (EKS, ECR)",
-        "AWS Compute (EC2, Lambda)",
-        "Azure Networking (Load Balancing, VNETs, Network Security Groups)"
+        "VPCs",
+        "Transit Gateways",
+        "NAT Gateways",
+        "Subnets",
+        "Route Tables",
+        "Security Groups",
+        "EKS",
+        "ECR",
+        "EC2",
+        "Lambda",
+        "IAM"
+      ]
+    },
+    {
+      "name":"Microsoft Azure",
+      "level":"Intermediate",
+      "keywords":[
+        "Load Balancing",
+        "VNETs",
+        "Network Security Groups"
       ]
     },
     {
       "name":"Networking",
       "level":"Advanced",
       "keywords":[
-        "Routing (BGP, OSPF, EIGRP, VRF Route Leaking)",
-        "Switching (vPC, VXLAN, FabricPath, STP),",
+        "BGP",
+        "OSPF",
+        "EIGRP",
+        "VRF Route Leaking",
+        "vPC",
+        "VXLAN",
+        "FabricPath",
+        "STP",
         "Load Balancing",
         "WAN Optimisation",
         "Wireless",
@@ -381,11 +421,11 @@
       "url":"https://github.com/writememe/motherstarter"
     },
     {
-      "name": "Building Network Automation Solutions - Course Assignments",
-      "startDate": "2019-02-01",
-      "endDate": "2019-05-01",
-      "description": "As part of completing the course, my portfolio of coursework can be found on Github",
-      "url": "https://github.com/writememe/BlgNetAutoSol"
+      "name":"Building Network Automation Solutions - Course Assignments",
+      "startDate":"2019-02-01",
+      "endDate":"2019-05-01",
+      "description":"As part of completing the course, my portfolio of coursework can be found on Github",
+      "url":"https://github.com/writememe/BlgNetAutoSol"
     }
   ]
 }
