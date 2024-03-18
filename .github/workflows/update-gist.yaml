@@ -1,7 +1,14 @@
-name: Update Resume Gist
+---
+# Github actions workflow file
+name: Validate and update Resume Github Gist
 
-on: push
-
+on:
+    push:
+        branches:
+            - master
+            - feature/*
+        paths-ignore:
+            - 'README.md'
 jobs:
   validate-resume:
     name: Validate resume complies with schema
@@ -24,7 +31,6 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
-
       - name: Update Resume Gist
         uses: exuanbo/actions-deploy-gist@v1
         with:
