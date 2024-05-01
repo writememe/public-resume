@@ -64,7 +64,7 @@
         "Development of network automation roadmap to progress network automation efforts within the organisation",
         "Lead developer for network automation architectural and design decisions",
         "Establishment of Source of Truth solution to identify and mass remediate inventory data inside ServiceNow",
-        "Development of daily automated backup solution, including secret masking (approx 1050 devices )",
+        "Development of daily automated backup solution, including secret masking (approx 1050 devices)",
         "Development of automated compliance solutions (approx 24,000 checks over 1400 devices)",
         "Development of standards for code development, installation instructions to ensure code portability and ease of use across various platforms",
         "Code refactor of all existing code projects to ensure that projects are consistent and follow best practices, such as adherence to style guides and readability",
