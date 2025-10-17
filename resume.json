@@ -44,7 +44,7 @@
       "highlights": [
         "Built custom health check APIs and automated post-deployment validation using pytest and synthetic monitoring, eliminating manual deployment shepherding for critical services",
         "Containerised Squid proxy service and decoupled compilation from AMI builds, reducing build times by 5 minutes per build and enabling flexible deployment options across environments",
-        "Designed comprehensive SignalFX mointoring with custom Python collectors and environment-aware filtering for load balancing platform, decreasing detection time and uplift troubleshooting capabilities for future incidents",
+        "Designed comprehensive SignalFX monitoring with custom Python collectors and environment-aware filtering for load balancing platform, decreasing detection time and uplift troubleshooting capabilities for future incidents",
         "Consolidated and modernised 70 repositories, migrating active repositories to cloud platforms and archiving legacy codebases to enable enterprise compliance",
         "Migrated logging pipeline from Vector to Fluent Bit, reducing tooling complexity and improving observability across multiple services",
         "Achieved 192GB monthly storage savings by optimising logging volume on security-compliant proxies, reducing operational costs and addressing quota requirements",
