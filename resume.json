@@ -40,7 +40,16 @@
       "url": "https://www.atlassian.com/",
       "startDate": "2024-07-29",
       "description": "Atlassian is an Australian-American software company that develops products for software developers, and project managers among other groups.",
-      "summary": "Working as part of the Edge Services team which are responsible for building and operating a secure, scalable, and reliable public Edge layer that terminates public client connections, applies business-wide compliance and security measures, and load-balance traffic internally"
+      "summary": "Working as part of the Edge Services team which are responsible for building and operating a secure, scalable, and reliable public Edge layer that terminates public client connections, applies business-wide compliance and security measures, and load-balance traffic internally",
+      "highlights": [
+        "Built custom health check APIs and automated post-deployment validation using pytest and synthetic monitoring, eliminating manual deployment shepherding for critical services",
+        "Containerised Squid proxy service and decoupled compilation from AMI builds, reducing build times by 5 minutes per build and enabling flexible deployment options across environments",
+        "Designed comprehensive SignalFX mointoring with custom Python collectors and environment-aware filtering for load balancing platform, decreasing detection time and uplift troubleshooting capabilities for future incidents",
+        "Consolidated and modernised 70 repositories, migrating active repositories to cloud platforms and archiving legacy codebases to enable enterprise compliance",
+        "Migrated logging pipeline from Vector to Fluent Bit, reducing tooling complexity and improving observability across multiple services",
+        "Achieved 192GB monthly storage savings by optimising logging volume on security-compliant proxies, reducing operational costs and addressing quota requirements",
+        "Mentoring multiple new team members and contributed to strategic planning, accelerating team onboarding and improving development practices across the team"
+      ]
     },
     {
       "name": "Dragonfly Technologies",
@@ -53,8 +62,8 @@
       "highlights": [
         "Rebuilt AWS environment using Pulumi and Python via Github Actions",
         "Migration of approx 35 repositories from Bitbucket to Github",
-        "Created pipelines that automate build of microservice containers into AWS ECR and automate the release notes into Github",
-        "Created pipelines that deploy Kubernetes manifests into AWS EKS using Kustomize",
+        "Created pipelines that automated build of microservice containers into AWS ECR and automate the release notes into Github",
+        "Created pipelines that deployed Kubernetes manifests into AWS EKS using Kustomize",
         "Remediated and optimised automated Python test pipelines for each release, reducing pipeline runs from 45 minutes down to 3 minutes",
         "Implemented and automated code quality standards across all Python-based repositories",
         "Integrated automated Github actions pipeline notifications via Slack",
@@ -321,6 +330,15 @@
       ]
     },
     {
+      "name": "Observability",
+      "level": "Intermediate",
+      "keywords": [
+        "Splunk",
+        "SignalFx",
+        "Fluent Bit"
+      ]
+    },
+    {
       "name": "Consulting",
       "level": "Advanced",
       "keywords": [
@@ -352,7 +370,8 @@
         "Azure DevOps",
         "Github",
         "Github Actions",
-        "Infrastructure as Code"
+        "Infrastructure as Code",
+        "Bamboo"
       ]
     },
     {
@@ -369,7 +388,8 @@
         "ECR",
         "EC2",
         "Lambda",
-        "IAM"
+        "IAM",
+        "CloudFormation"
       ]
     },
     {
