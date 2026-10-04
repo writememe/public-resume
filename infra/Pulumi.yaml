@@ -1,0 +1,26 @@
+name: public-resume
+runtime:
+  name: python
+  options:
+    toolchain: uv
+    virtualenv: .venv
+description: Host the JSON Resume website at cv.danielteycheney.com
+config:
+  rootDomain:
+    type: string
+    description: Registered root domain with a public Route 53 hosted zone.
+    default: danielteycheney.com
+  subdomain:
+    type: string
+    description: Subdomain label to host, such as cv.
+    default: cv
+  bucketName:
+    type: string
+    description: Globally unique S3 bucket name for the rendered site. Use lowercase letters, numbers, and hyphens.
+  hostedZoneId:
+    type: string
+    description: Optional public Route 53 hosted zone ID. If omitted, the zone is looked up by rootDomain.
+  siteDirectory:
+    type: string
+    description: Directory of rendered website files relative to the Pulumi project.
+    default: ../site

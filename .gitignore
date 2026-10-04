@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+
+# Rendered resume site; regenerated from resume.json
+site/
+
+# Pycache
+infra/__pycache__
+
+# uv-managed Pulumi environment
+infra/.venv/
+
+# Mac files
+.DS_Store
