@@ -90,18 +90,14 @@ The current stack does not create the OIDC provider or deployment role. Keep AWS
 
 ## Build the JSON Resume site
 
-From the repository root, install the existing theme and export HTML into the directory consumed by Pulumi:
+From the repository root, install the existing theme and build all public files into the directory consumed by Pulumi:
 
 ```sh
 npm install
-mkdir -p site
-npx resume export site/index.html --format html --theme stackoverflow
-PUPPETEER_EXECUTABLE_PATH="$(node -e 'process.stdout.write(require("puppeteer").executablePath())')" \
-   npx resume export site/resume.pdf --format pdf --theme stackoverflow
-cp resume.json site/resume.json
+npm run build:site
 ```
 
-The site will serve the PDF at `/resume.pdf` and the source JSON at `/resume.json`. The explicit Puppeteer path makes the PDF export use the browser installed for this project, which avoids resume-cli's stale bundled Chromium on some Macs. Copy any images referenced by the generated site into `site/` as needed. Pulumi uploads every file below that directory and assigns common content types.
+The build writes `index.html`, `resume.pdf`, and an unchanged copy of the source JSON into `site/`. It adapts `work[].name` to the legacy Stack Overflow theme's `company` field only in memory, so the canonical `resume.json` remains schema-valid. The site serves the PDF at `/resume.pdf` and the source JSON at `/resume.json`. Copy any images referenced by the generated site into `site/` as needed. Pulumi uploads every file below that directory and assigns common content types.
 
 ## Deploy with Pulumi
 
@@ -164,10 +160,7 @@ Rebuild the site after changing `resume.json`, then run `pulumi up` again:
 
 ```sh
 cd ..
-npx resume export site/index.html --format html --theme stackoverflow
-PUPPETEER_EXECUTABLE_PATH="$(node -e 'process.stdout.write(require("puppeteer").executablePath())')" \
-   npx resume export site/resume.pdf --format pdf --theme stackoverflow
-cp resume.json site/resume.json
+npm run build:site
 cd infra
 uv sync
 pulumi up

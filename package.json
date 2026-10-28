@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build:site": "node scripts/build_site.js"
+  },
   "dependencies": {
     "jsonresume-theme-stackoverflow": "^2.1.0",
     "puppeteer": "^24.27.0",
