@@ -25,20 +25,32 @@
         "network": "LinkedIn",
         "username": "Daniel Teycheney",
         "url": "https://www.linkedin.com/in/danielfjteycheney/"
-      },
-      {
-        "network": "Twitter",
-        "username": "danielteycheney",
-        "url": "https://twitter.com/danielteycheney"
       }
     ]
   },
   "work": [
     {
+      "name": "Australian Red Cross Lifeblood",
+      "position": "Senior Network Automation Engineer",
+      "url": "https://www.lifeblood.com.au/",
+      "startDate": "2026-03-02",
+      "description": "Australian Red Cross Lifeblood is a non-profit organisation that provides blood donation services and support to the community.",
+      "summary": "Lead the adoption and technical direction of network automation across the organisation.",
+      "highlights": [
+        "Established network automation for the organisation, leading technical discussions and decisions",
+        "Established governance and frameworks for delivering network automation solutions, from idea to a supported solution",
+        "Implemented nautobot as a source of truth and automation orchestration platform",
+        "Built custom nautobot single source of truth (SSoT) app, taking eleven disparate data sources and normalising into 1500 devices/virtual machines inside nautobot on an automated schedule",
+        "Mentored current network engineers into adopting network automation",
+        "Automated ServiceNow change lifecycle management for selected nautobot automated workflows"
+      ]
+    },
+    {
       "name": "Atlassian",
       "position": "Cloud Network Engineer",
       "url": "https://www.atlassian.com/",
       "startDate": "2024-07-29",
+      "endDate": "2026-02-18",
       "description": "Atlassian is an Australian-American software company that develops products for software developers, and project managers among other groups.",
       "summary": "Working as part of the Edge Services team which are responsible for building and operating a secure, scalable, and reliable public Edge layer that terminates public client connections, applies business-wide compliance and security measures, and load-balance traffic internally",
       "highlights": [
@@ -318,6 +330,7 @@
       "name": "Network Automation",
       "level": "Advanced",
       "keywords": [
+        "nautobot",
         "Nornir",
         "NAPALM",
         "Scrapli",
